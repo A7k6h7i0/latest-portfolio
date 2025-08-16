@@ -30,8 +30,8 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D',
       technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       status: 'Completed',
-      github: 'https://github.com/harshavardhan-hub/harsha-portfolio',
-      demo: 'https://harsha-portfolio-y6ty.onrender.com'
+      github: 'https://github.com/A7k6h7i0/latest-portfolio',
+      demo: 'https://latest-portfolio-rosy.vercel.app/'
     }
   ]
 
