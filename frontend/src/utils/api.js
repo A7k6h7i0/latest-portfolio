@@ -12,7 +12,7 @@ const getApiBaseUrl = () => {
     return import.meta.env.VITE_API_URL
   }
   
-  // Priority 3: Default fallback
+  // Priority 3: ckDefault fallba
   return import.meta.env.PROD ? '/api' : 'http://localhost:10000/api'
 }
 

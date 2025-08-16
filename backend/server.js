@@ -11,8 +11,11 @@ dotenv.config()
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-
 const app = express()
+
+// SINGLE LINE - Trust Railway's proxy
+app.set('trust proxy', 1)
+
 const PORT = process.env.PORT || 10000
 
 console.log('🚀 Starting server...')
@@ -24,7 +27,7 @@ app.use(cors({
   origin: process.env.FRONTEND_URL || "*",
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']   
+  allowedHeaders: ['Content-Type', 'Authorization']
 }))
 
 app.use(express.json({ limit: '10mb' }))
