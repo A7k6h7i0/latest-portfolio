@@ -1,4 +1,4 @@
-# 🌐 Harsha Vardhan Portfolio Website
+# 🌐 Akhila Portfolio Website
 
 A **Full-Stack Portfolio Website** to showcase my skills, projects, and contact information, built with **React (Vite)** and **Node.js (Express)**.  
 Designed for potential clients, employers, and collaborators.
@@ -6,7 +6,7 @@ Designed for potential clients, employers, and collaborators.
 ---
 
 ## 🎯 Project Overview
-- **Project Name:** Harsha Vardhan Portfolio Website
+- **Project Name:** Akhila Portfolio Website
 - **Type:** Full-Stack Portfolio Website
 - **Purpose:** Professional portfolio showcasing skills, projects, and contact information
 - **Target Audience:** Potential clients, employers, and collaborators
