@@ -47,10 +47,10 @@ router.post('/', contactLimiter, async (req, res) => {
     console.log('✅ Contact saved:', savedContact._id)
 
     // Send WhatsApp notification (if configured)
-    if (process.env.HARSHA_WHATSAPP_NUMBER) {
+    if (process.env.AKHILA_WHATSAPP_NUMBER) {
       try {
         await sendWhatsAppMessage(
-          process.env.HARSHA_WHATSAPP_NUMBER,
+          process.env.AKHILA_WHATSAPP_NUMBER,
           `🔔 New Contact Form Submission
 
 👤 Name: ${name}
@@ -66,7 +66,7 @@ ${message}
 ---
 Reply directly to: ${email}`
         )
-        console.log('✅ Notification sent to Harsha')
+        console.log('✅ Notification sent to AKHILA')
       } catch (whatsappError) {
         console.error('❌ WhatsApp notification failed:', whatsappError)
         // Continue even if WhatsApp fails
